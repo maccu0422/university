@@ -1,0 +1,134 @@
+*{
+    font-family: 'Jua', sans-serif;
+    
+    
+}
+
+/*ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+*/
+/* 상단 카테고리 색상 */
+
+.wrap{
+    margin:0 auto;
+}
+a{
+    
+    color:rgba(255,75,167);
+    font-size:25px;
+    text-decoration-line: none;
+}
+
+
+body{
+    background-color: rgba(42,40,40);
+    height: 300vh;
+    
+}
+
+.wrap{
+    width: 100%; 
+}
+
+
+.header{
+    height: 70px;
+    display: block;
+    position: relative;
+}
+
+.main-header{
+    display: flex;
+    position:relative;
+}
+
+.header-container{
+    top:0px;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    flex-direction: row;
+    position: absolute;
+    
+}
+
+.icon{
+    margin-left: 20px;
+}
+
+/* 메인 상단 박스 */
+.wrap > video.mp4 {
+    border-collapse: collapse;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;   
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-image: url(###);
+    background-repeat: no-repeat;
+    padding: 0px;
+    margin:0px;
+    position: absolute;
+}
+
+
+.icon::before{
+    content:url("DFBF.png");
+    margin-left: 30px;
+    
+}
+
+.tab{
+    display: flex;
+    margin-right: 35px;
+    
+    
+}
+
+.seri{
+    display: flex;
+    margin: 20px 0px;
+
+}
+
+.seri2{
+    display: flex;
+    margin: 20px 0px;
+}
+
+.header{
+    position:absolute;
+    width:100%;
+}
+
+/* 메인 하단 박스 */
+.movie{
+    margin:auto;
+    height: 157vh;
+    position: relative;
+    width: 1000px;
+    margin-top: 80px;
+    border: 3px solid pink;
+    border-radius: 40px;
+}
+
+.sub-movie{
+    margin:auto;
+    height: 120vh;
+    position: relative;
+    text-align: center;
+}
+
+
+
+

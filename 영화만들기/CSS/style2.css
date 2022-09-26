@@ -1,0 +1,142 @@
+*{
+    font-family: 'Nanum Gothic Coding', monospace;
+    
+    
+}
+
+/*ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+*/
+/* 상단 카테고리 색상 */
+
+a{
+    
+    color:rgba(255,75,167);
+    font-size:2rem;
+    text-decoration-line: none;
+    -webkit-text-stroke: 0.5px black;
+}
+
+
+body{
+    background-color: rgba(42,40,40);
+    height: 300vh;
+    
+}
+
+.wrap{
+    width: 100%; 
+    margin:0 auto;
+}
+
+.header{
+    height: 70px;
+    display: block;
+    position: relative;
+}
+
+.main-header{
+    display: flex;
+    position: relative;
+    margin-top: 0px;
+}
+
+.header-container{
+    top:0px;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    flex-direction: row;
+    position: absolute;
+    
+}
+
+.icon{
+    margin-left: 20px;
+    margin-top: 30px;
+}
+/* 메인 상단 박스 */
+.wrap > video.mp4 {
+    border-collapse: collapse;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;   
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url(###);
+    background-repeat: no-repeat;
+    padding: 0px;
+    margin:0px;
+}
+
+
+.icon::before{
+    content:url("../DFBF.png");
+    margin-left: 30px;
+    
+}
+
+.tab{
+    display: flex;
+    margin-right: 35px;
+    margin-top: 40px;
+    
+}
+
+.seri{
+    display: flex;
+    margin: 20px 0px;
+
+}
+
+
+.header{
+    position:absolute;
+    width:100%;
+}
+
+/* 메인 하단 박스 */
+.movie{
+    margin: auto;
+    height: auto;
+    position: relative;
+    width: 1500px;
+    margin-top: 130px;
+}
+
+.sub-movie{
+    margin:auto;
+    height: 120vh;
+    position: relative;
+    text-align: center;
+}
+.second-line{
+    
+        margin:auto;
+        height: 120vh;
+        position: relative;
+        text-align: center;
+    
+}
+
+
+
+.chart1{
+    color:rgba(255,75,167);
+    font-size: 2rem;
+    -webkit-text-stroke: 0.5px black;
+    margin-top:30px;
+    border: stroke 20px black;
+    width:450px;
+
+}
